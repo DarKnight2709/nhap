@@ -30,7 +30,7 @@ class _CustomScrollWidgetState extends State<CustomScrollWidget> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('data'),
+          title: const Text('data fixed'),
         ),
         body: TweenAnimationBuilder(
           tween: ColorTween(begin: Colors.white, end: newColor),
